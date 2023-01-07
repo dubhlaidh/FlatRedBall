@@ -219,6 +219,7 @@ namespace FlatRedBall.TileGraphics
 
         public TextureFilter? TextureFilter { get; set; } = null;
 
+        public bool isObjectLayer { get; set; } = false;
 
         #endregion
 

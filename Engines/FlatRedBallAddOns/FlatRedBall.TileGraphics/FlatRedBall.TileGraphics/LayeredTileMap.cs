@@ -450,6 +450,7 @@ namespace FlatRedBall.TileGraphics
                     else if (layer is mapObjectgroup objectLayer)
                     {
                         matchingLayer.Visible = objectLayer.IsVisible;
+                        matchingLayer.isObjectLayer = true;
                     }
                 }
             }

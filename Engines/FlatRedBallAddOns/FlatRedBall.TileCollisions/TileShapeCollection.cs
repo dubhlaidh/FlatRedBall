@@ -1335,6 +1335,8 @@ namespace FlatRedBall.TileCollisions
 
                     foreach (var layer in layeredTileMap.MapLayers)
                     {
+                        if(layer.isObjectLayer) continue;
+
                         List<int> indexesToRemove = null;
                         if (removeTilesOnAdd)
                         {
